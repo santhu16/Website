@@ -1,0 +1,17 @@
+<div  ng-controller="listController" class="middle-about">
+    <table class="table table-bordered text-center">
+        <tr >
+            <th class="text-center head" >Name</th>
+            <th class="text-center head">Capital</th>
+            <th class="text-center head">Region</th>
+            <th class="text-center head">NativeName</th>
+
+        </tr>
+        <tr ng-repeat="object in objects">
+            <td>{{ object.name }}</td>
+            <td>{{ object.capital}}</td>
+            <td>{{ object.region }}</td>
+            <td>{{ object.nativeName }}</td>
+        </tr>
+    </table>
+</div>

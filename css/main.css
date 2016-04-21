@@ -1,0 +1,71 @@
+body{
+    background-color:#12023A;
+}
+.navbar {
+    font-family: BentonSans medium;
+    text-transform: uppercase;
+    font-weight: 900;
+    color:black;
+    font-size: 10px;
+}
+button {
+    overflow: visible;
+}
+.container {
+    width: 1269px;
+}
+.navbar-brand {
+    float: left;
+    padding: 19.5px 15px;
+    font-size: 19px;
+    line-height: 60px;
+    height: 100px;
+}
+.navbar-default {
+    background-color: #18bc9c;
+}
+.navbar-default .navbar-brand {
+    color: #322D2D;
+    font-size: 35px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 30px;
+    line-height: 78px;
+    color: black;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: -55px;
+}
+.navbar-nav > li {
+    float: left;
+    text-decoration: initial;
+    font-size: 22px;
+}
+.navbar-right {
+    float: right !important;
+    margin-right: -95px;
+}
+.middle{
+    width:32%;
+    margin-top: 10%;
+}
+.middle-login {
+    width: 32%;
+    margin-top: 10%;
+    margin-left: 33%;
+}
+.middle-about {
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 16%;
+    color: white;
+}
+.head{
+    font-size: 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
